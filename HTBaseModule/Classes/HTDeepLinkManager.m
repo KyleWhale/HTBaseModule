@@ -77,10 +77,11 @@
     [var_dic setValue:[HTCommonConfiguration lgjeropj_shared].BLOCK_appleIdBlock() forKey:AsciiString(@"appleid")];
     // force
     [var_dic setValue:@"1" forKey:AsciiString(@"force")];
+    ZQAccountModel *var_model = [HTCommonConfiguration lgjeropj_shared].BLOCK_userBlock();
     // uid
-    [var_dic setValue:[HTCommonConfiguration lgjeropj_shared].BLOCK_uidBlock() forKey:AsciiString(@"uid")];
+    [var_dic setValue:((var_model && var_model.var_userid.length > 0) ? var_model.var_userid : @"0") forKey:AsciiString(@"uid")];
     // userName
-    [var_dic setValue:[HTCommonConfiguration lgjeropj_shared].BLOCK_userNameBlock() forKey:AsciiString(@"userName")];
+    [var_dic setValue:((var_model && var_model.var_name.length > 0) ? var_model.var_name : @"") forKey:AsciiString(@"userName")];
     // appId
     [var_dic setValue:[HTCommonConfiguration lgjeropj_shared].BLOCK_appIdBlock() forKey:AsciiString(@"appid")];
     // appType

@@ -26,6 +26,7 @@
 		01E5DC322A72222400D4C5CE /* HTKitCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DC252A72222400D4C5CE /* HTKitCreate.m */; };
 		01E5DCAA2A7248D600D4C5CE /* icon_wdback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5DCA92A7248D600D4C5CE /* icon_wdback@3x.png */; };
 		01E5DCAD2A724BD700D4C5CE /* HTDeepLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCAC2A724BD700D4C5CE /* HTDeepLinkManager.m */; };
+		01E5DCB42A7254DE00D4C5CE /* ZQAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */; };
 		FF0DC9BBFE6EA0547A737B2C /* Pods_HTBaseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F648DDC354889FBDDC909645 /* Pods_HTBaseModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		01E5DCA92A7248D600D4C5CE /* icon_wdback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_wdback@3x.png"; sourceTree = "<group>"; };
 		01E5DCAB2A724BD700D4C5CE /* HTDeepLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDeepLinkManager.h; sourceTree = "<group>"; };
 		01E5DCAC2A724BD700D4C5CE /* HTDeepLinkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDeepLinkManager.m; sourceTree = "<group>"; };
+		01E5DCB22A7254DE00D4C5CE /* ZQAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAccountModel.h; sourceTree = "<group>"; };
+		01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAccountModel.m; sourceTree = "<group>"; };
 		764C78968101FC5C373A3DFA /* Pods-HTBaseModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTBaseModule.release.xcconfig"; path = "Target Support Files/Pods-HTBaseModule/Pods-HTBaseModule.release.xcconfig"; sourceTree = "<group>"; };
 		EF040C77DEF90915C1444163 /* Pods-HTBaseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTBaseModule.debug.xcconfig"; path = "Target Support Files/Pods-HTBaseModule/Pods-HTBaseModule.debug.xcconfig"; sourceTree = "<group>"; };
 		F648DDC354889FBDDC909645 /* Pods_HTBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +142,8 @@
 				01E5DC182A72222400D4C5CE /* ConfigENUM.h */,
 				01E5DC162A72222400D4C5CE /* HTBaseModel.h */,
 				01E5DC232A72222400D4C5CE /* HTBaseModel.m */,
+				01E5DCB22A7254DE00D4C5CE /* ZQAccountModel.h */,
+				01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */,
 				01E5DC1D2A72222400D4C5CE /* HTCommonConfiguration.h */,
 				01E5DC132A72222400D4C5CE /* HTCommonConfiguration.m */,
 				01E5DCAB2A724BD700D4C5CE /* HTDeepLinkManager.h */,
@@ -299,6 +304,7 @@
 				01E5DC292A72222400D4C5CE /* BaseTableViewCell.m in Sources */,
 				01E5DC302A72222400D4C5CE /* BaseCollectionViewCell.m in Sources */,
 				01E5DC2F2A72222400D4C5CE /* BaseNavigationController.m in Sources */,
+				01E5DCB42A7254DE00D4C5CE /* ZQAccountModel.m in Sources */,
 				01E5DC2E2A72222400D4C5CE /* BaseViewController.m in Sources */,
 				01E5DC2A2A72222400D4C5CE /* HTCommonConfiguration.m in Sources */,
 				01E5DC2D2A72222400D4C5CE /* LKFPrivateFunction.m in Sources */,

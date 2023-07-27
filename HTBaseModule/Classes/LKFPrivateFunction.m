@@ -53,7 +53,7 @@
     NSString *var_str = AsciiString(@"text");
     if (var_contentDict.count > 0 &&[var_contentDict.allKeys containsObject:var_string]) {
         var_str = [var_contentDict objectForKey:var_string];
-    }else if (![var_string hasPrefix:AsciiString(@"string")]) {
+    } else if (![var_string hasPrefix:AsciiString(@"string")]) {
         var_str = var_string;
     }
     return var_str;

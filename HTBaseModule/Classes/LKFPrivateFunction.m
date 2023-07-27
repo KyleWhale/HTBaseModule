@@ -7,6 +7,7 @@
 
 #import "LKFPrivateFunction.h"
 #import "HTCommonMacro.h"
+#import "HTCommonConfiguration.h"
 
 @implementation LKFPrivateFunction
 
@@ -38,6 +39,24 @@
     NSString *suffix = AsciiString(@".png");
     NSString *picture = [NSString stringWithFormat:@"%@%ld%@%@", base, number, scale, suffix];
     return [NSURL URLWithString:picture];
+}
+
++ (NSString *)lgjeropj_stringWithKid:(id)var_text {
+    
+    NSString *var_string = @"";
+    if ([var_text isKindOfClass:[NSString class]]) {
+        var_string = var_text;
+    } else {
+        var_string = [NSString stringWithFormat:@"%@%@", AsciiString(@"string"), var_text];
+    }
+    NSDictionary *var_contentDict = [HTCommonConfiguration lgjeropj_shared].BLOCK_mutilLanguageBlock();
+    NSString *var_str = AsciiString(@"text");
+    if (var_contentDict.count > 0 &&[var_contentDict.allKeys containsObject:var_string]) {
+        var_str = [var_contentDict objectForKey:var_string];
+    }else if (![var_string hasPrefix:AsciiString(@"string")]) {
+        var_str = var_string;
+    }
+    return var_str;
 }
 
 @end

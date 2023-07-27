@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSURL *)lgjeropj_imageUrlFromNumber:(NSInteger)number;
 
++ (NSString *)lgjeropj_stringWithKid:(id)var_text;
+
 @end
 
 NS_ASSUME_NONNULL_END

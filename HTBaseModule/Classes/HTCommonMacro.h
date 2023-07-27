@@ -27,6 +27,8 @@
 #define ViewHeight [[UIScreen mainScreen] bounds].size.height - LR_TabbarSafeBottomMargin
 #define kHJBottomHeight  [UIDevice safeBottom]
 #define AsciiString(object) [LKFPrivateFunction lgjeropj_stringFromAsciiArray:object]
+#define LocalString(string,comment) [LKFPrivateFunction lgjeropj_stringWithKid:string]
+#define LocalInt(index) [LKFPrivateFunction lgjeropj_stringWithKid:@index]
 #define kMainColor  [UIColor colorWithHexString:@"#232331"]
 #define kNavBGColor  [UIColor colorWithHexString:@"#313143"]
 #define kTabbarBGColor  [UIColor colorWithHexString:@"#1D1D1D"]

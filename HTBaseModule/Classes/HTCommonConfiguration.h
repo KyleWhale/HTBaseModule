@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString * (^BLOCK_userNameBlock) (void);
 // airDict
 @property (nonatomic, copy) NSDictionary * (^BLOCK_airDictBlock) (void);
+// 多语言
+@property (nonatomic, copy) NSDictionary * (^BLOCK_mutilLanguageBlock) (void);
 
 @end
 

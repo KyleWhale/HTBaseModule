@@ -9,6 +9,7 @@ target 'HTBaseModule' do
   pod 'MoExtension'
   pod 'SDWebImage'
   pod 'YYModel'
+  pod 'FirebaseDynamicLinks'
   
   # Pods for HTBaseModule
 

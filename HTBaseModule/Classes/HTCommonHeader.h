@@ -14,6 +14,7 @@
 #import <CommonCrypto/CommonDigest.h>
 #import <MoExtension/MoExtension.h>
 #import "HTCommonConfiguration.h"
+#import "HTAttributedManager.h"
 #import "LKFPrivateFunction.h"
 #import "HTFileManager.h"
 #import "HTKitCreate.h"

@@ -33,4 +33,24 @@
 #define kNavBGColor  [UIColor colorWithHexString:@"#313143"]
 #define kTabbarBGColor  [UIColor colorWithHexString:@"#1D1D1D"]
 
+#define PrivacyPolicy  @"https://sites.google.com/view/moshfocus/privacypolicy"
+#define TermService    @"https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+#define IAP_AppStore   @"https://buy.itunes.apple.com/verifyReceipt"
+#define IAP_SANDBOX    @"https://sandbox.itunes.apple.com/verifyReceipt"
+
+#define HT_IPA_Month         @"month" //测试
+#define HT_IPA_Year          @"year"
+#define HT_IPA_Week          @"week"
+#define HT_IPA_Mosh          @"free"//mosh
+#define HT_IPA_Family        @"family" //测试
+
+#define IAP_ShareKey   @"e7486eea6edb43309cad765b4d0eaa92"//测试 eb85b9543e1d4dff9d848c69eddab245
+
+#define FBAppId             @"1005459233456032"
+#define KochavaAPPGUID      @"ko-301-7d9q2"
+
+#define Base_URL  @"http://54.187.6.80" //测试
+#define TP_App_Id          @"100"//测试 289
+#define AppleID           @"6446979826" //测试
+
 #endif /* HTCommonMacro_h */

@@ -30,6 +30,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSDictionary * (^BLOCK_airDictBlock) (void);
 // 多语言
 @property (nonatomic, copy) NSDictionary * (^BLOCK_mutilLanguageBlock) (void);
+// 导量 gd_dictionary
+@property (nonatomic, copy) NSDictionary * (^BLOCK_gdBlock) (void);
+
+// 开关状态
+@property (nonatomic, copy) BOOL (^BLOCK_switchStateBlock) (void);
+// 保存用户数据
+@property (nonatomic, copy) void (^BLOCK_saveUserBlock) (ZQAccountModel *model);
+// 深链
+@property (nonatomic, copy) NSURL * (^BLOCK_deepLinkBlock) (NSDictionary *params);
+// 停止广告
+@property (nonatomic, copy) void (^BLOCK_stopAdBlock) (BOOL stop);
+// 检测强制登录
+@property (nonatomic, copy) void (^BLOCK_checkLoginBlock) (void);
+// 跳转登录
+@property (nonatomic, copy) void (^BLOCK_toLoginBlock) (void);
+// 退出登录
+@property (nonatomic, copy) void (^BLOCK_toLogoutBlock) (void);
+// 订阅事件 KVAEvent
+@property (nonatomic, copy) void (^BLOCK_subscribeEventBlock) (void);
 
 @end
 

@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 检测强制登录
 @property (nonatomic, copy) void (^BLOCK_checkLoginBlock) (void);
 // 跳转登录
-@property (nonatomic, copy) void (^BLOCK_toLoginBlock) (void);
+@property (nonatomic, copy) void (^BLOCK_toLoginBlock) (NSInteger source);
 // 退出登录
 @property (nonatomic, copy) void (^BLOCK_toLogoutBlock) (void);
 // 订阅事件 KVAEvent
@@ -53,6 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^BLOCK_subscribeVerifyBlock) (void);
 // 前往订阅页
 @property (nonatomic, copy) void (^BLOCK_toPremiumBlock) (NSInteger source);
+// 显示tabbar订阅红点
+@property (nonatomic, copy) void (^BLOCK_showRedBlock) (void);
 
 @end
 

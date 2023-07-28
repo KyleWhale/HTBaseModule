@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^BLOCK_toLogoutBlock) (void);
 // 订阅事件 KVAEvent
 @property (nonatomic, copy) void (^BLOCK_subscribeEventBlock) (void);
+// 订阅验证
+@property (nonatomic, copy) void (^BLOCK_subscribeVerifyBlock) (void);
 
 @end
 

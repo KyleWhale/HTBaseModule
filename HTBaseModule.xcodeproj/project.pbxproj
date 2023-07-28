@@ -24,7 +24,6 @@
 		01E5DC302A72222400D4C5CE /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DC202A72222400D4C5CE /* BaseCollectionViewCell.m */; };
 		01E5DC312A72222400D4C5CE /* HTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DC232A72222400D4C5CE /* HTBaseModel.m */; };
 		01E5DC322A72222400D4C5CE /* HTKitCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DC252A72222400D4C5CE /* HTKitCreate.m */; };
-		01E5DCAA2A7248D600D4C5CE /* icon_wdback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E5DCA92A7248D600D4C5CE /* icon_wdback@3x.png */; };
 		01E5DCB42A7254DE00D4C5CE /* ZQAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */; };
 		01E5DCB72A7264C900D4C5CE /* HTAttributedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCB52A7264C900D4C5CE /* HTAttributedManager.m */; };
 		FF0DC9BBFE6EA0547A737B2C /* Pods_HTBaseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F648DDC354889FBDDC909645 /* Pods_HTBaseModule.framework */; };
@@ -66,7 +65,6 @@
 		01E5DC262A72222400D4C5CE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		01E5DC272A72222400D4C5CE /* HTCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCommonHeader.h; sourceTree = "<group>"; };
 		01E5DC282A72222400D4C5CE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		01E5DCA92A7248D600D4C5CE /* icon_wdback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_wdback@3x.png"; sourceTree = "<group>"; };
 		01E5DCB22A7254DE00D4C5CE /* ZQAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAccountModel.h; sourceTree = "<group>"; };
 		01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAccountModel.m; sourceTree = "<group>"; };
 		01E5DCB52A7264C900D4C5CE /* HTAttributedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAttributedManager.m; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 		01E5DBF72A72218E00D4C5CE /* HTBaseModule */ = {
 			isa = PBXGroup;
 			children = (
-				01E5DCA82A7248D600D4C5CE /* Resources */,
 				01E5DC112A72222400D4C5CE /* Classes */,
 				01E5DBF82A72218E00D4C5CE /* AppDelegate.h */,
 				01E5DBF92A72218E00D4C5CE /* AppDelegate.m */,
@@ -158,14 +155,6 @@
 				01E5DCB32A7254DE00D4C5CE /* ZQAccountModel.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		01E5DCA82A7248D600D4C5CE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				01E5DCA92A7248D600D4C5CE /* icon_wdback@3x.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		53ABB92258A0294921A7D50B /* Pods */ = {
@@ -244,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E5DCAA2A7248D600D4C5CE /* icon_wdback@3x.png in Resources */,
 				01E5DC082A72219000D4C5CE /* LaunchScreen.storyboard in Resources */,
 				01E5DC052A72219000D4C5CE /* Assets.xcassets in Resources */,
 				01E5DC032A72218E00D4C5CE /* Main.storyboard in Resources */,

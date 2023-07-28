@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTBaseModule"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "HTBaseModule for pod test"
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "HTBaseModule/Resources/*.png"
+  # spec.resources = "HTBaseModule/Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

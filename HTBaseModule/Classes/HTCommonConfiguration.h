@@ -39,8 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^BLOCK_saveUserBlock) (ZQAccountModel *model);
 // 深链
 @property (nonatomic, copy) NSURL * (^BLOCK_deepLinkBlock) (NSDictionary *params);
+// 深链公参
+@property (nonatomic, copy) NSMutableDictionary * (^BLOCK_deepLinkParamsBlock) (void);
 // 停止广告
 @property (nonatomic, copy) void (^BLOCK_stopAdBlock) (BOOL stop);
+// 是否广告
+@property (nonatomic, copy) BOOL (^BLOCK_getStopAdBlock) (void);
 // 检测强制登录
 @property (nonatomic, copy) void (^BLOCK_checkLoginBlock) (void);
 // 跳转登录
@@ -55,6 +59,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^BLOCK_toPremiumBlock) (NSInteger source);
 // 显示tabbar订阅红点
 @property (nonatomic, copy) void (^BLOCK_showRedBlock) (void);
+// applovin
+@property (nonatomic, copy) id (^BLOCK_appLovinSDKBlock) (void);
+// 引导页
+@property (nonatomic, copy) void (^BLOCK_showGuidePageBlock) (void);
 
 @end
 

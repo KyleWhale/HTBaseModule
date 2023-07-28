@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^BLOCK_subscribeEventBlock) (void);
 // 订阅验证
 @property (nonatomic, copy) void (^BLOCK_subscribeVerifyBlock) (void);
+// 前往订阅页
+@property (nonatomic, copy) void (^BLOCK_toPremiumBlock) (NSInteger source);
 
 @end
 

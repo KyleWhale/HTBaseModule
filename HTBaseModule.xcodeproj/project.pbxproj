@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155CBA12A73A18400170661 /* HTPremiumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB9F2A73A18400170661 /* HTPremiumManager.m */; };
 		01E5DBFA2A72218E00D4C5CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DBF92A72218E00D4C5CE /* AppDelegate.m */; };
 		01E5DBFD2A72218E00D4C5CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DBFC2A72218E00D4C5CE /* SceneDelegate.m */; };
 		01E5DC002A72218E00D4C5CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DBFF2A72218E00D4C5CE /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155CB9F2A73A18400170661 /* HTPremiumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPremiumManager.m; sourceTree = "<group>"; };
+		0155CBA02A73A18400170661 /* HTPremiumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumManager.h; sourceTree = "<group>"; };
 		01E5DBF52A72218E00D4C5CE /* HTBaseModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTBaseModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5DBF82A72218E00D4C5CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E5DBF92A72218E00D4C5CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				01E5DC142A72222400D4C5CE /* HTFileManager.m */,
 				01E5DC1C2A72222400D4C5CE /* HTKitCreate.h */,
 				01E5DC252A72222400D4C5CE /* HTKitCreate.m */,
+				0155CBA02A73A18400170661 /* HTPremiumManager.h */,
+				0155CB9F2A73A18400170661 /* HTPremiumManager.m */,
 				01E5DC212A72222400D4C5CE /* LKFPrivateFunction.h */,
 				01E5DC172A72222400D4C5CE /* LKFPrivateFunction.m */,
 				01E5DCB22A7254DE00D4C5CE /* ZQAccountModel.h */,
@@ -294,6 +299,7 @@
 				01E5DC2F2A72222400D4C5CE /* BaseNavigationController.m in Sources */,
 				01E5DCB42A7254DE00D4C5CE /* ZQAccountModel.m in Sources */,
 				01E5DC2E2A72222400D4C5CE /* BaseViewController.m in Sources */,
+				0155CBA12A73A18400170661 /* HTPremiumManager.m in Sources */,
 				01E5DC2A2A72222400D4C5CE /* HTCommonConfiguration.m in Sources */,
 				01E5DC2D2A72222400D4C5CE /* LKFPrivateFunction.m in Sources */,
 				01E5DC002A72218E00D4C5CE /* ViewController.m in Sources */,

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0124501B2A7764B7009CD788 /* HTAdViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450172A7764B7009CD788 /* HTAdViewManager.m */; };
+		0124501C2A7764B7009CD788 /* HTAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450182A7764B7009CD788 /* HTAdView.m */; };
 		0155CBA12A73A18400170661 /* HTPremiumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155CB9F2A73A18400170661 /* HTPremiumManager.m */; };
 		01E5DBFA2A72218E00D4C5CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DBF92A72218E00D4C5CE /* AppDelegate.m */; };
 		01E5DBFD2A72218E00D4C5CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DBFC2A72218E00D4C5CE /* SceneDelegate.m */; };
@@ -31,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012450172A7764B7009CD788 /* HTAdViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdViewManager.m; sourceTree = "<group>"; };
+		012450182A7764B7009CD788 /* HTAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAdView.m; sourceTree = "<group>"; };
+		012450192A7764B7009CD788 /* HTAdViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdViewManager.h; sourceTree = "<group>"; };
+		0124501A2A7764B7009CD788 /* HTAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAdView.h; sourceTree = "<group>"; };
 		0155CB9F2A73A18400170661 /* HTPremiumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPremiumManager.m; sourceTree = "<group>"; };
 		0155CBA02A73A18400170661 /* HTPremiumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumManager.h; sourceTree = "<group>"; };
 		01E5DBF52A72218E00D4C5CE /* HTBaseModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTBaseModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +146,10 @@
 				01E5DC282A72222400D4C5CE /* BaseViewController.h */,
 				01E5DC1A2A72222400D4C5CE /* BaseViewController.m */,
 				01E5DC182A72222400D4C5CE /* ConfigENUM.h */,
+				0124501A2A7764B7009CD788 /* HTAdView.h */,
+				012450182A7764B7009CD788 /* HTAdView.m */,
+				012450192A7764B7009CD788 /* HTAdViewManager.h */,
+				012450172A7764B7009CD788 /* HTAdViewManager.m */,
 				01E5DCB62A7264C900D4C5CE /* HTAttributedManager.h */,
 				01E5DCB52A7264C900D4C5CE /* HTAttributedManager.m */,
 				01E5DC162A72222400D4C5CE /* HTBaseModel.h */,
@@ -295,9 +305,11 @@
 			files = (
 				01E5DC322A72222400D4C5CE /* HTKitCreate.m in Sources */,
 				01E5DC292A72222400D4C5CE /* BaseTableViewCell.m in Sources */,
+				0124501C2A7764B7009CD788 /* HTAdView.m in Sources */,
 				01E5DC302A72222400D4C5CE /* BaseCollectionViewCell.m in Sources */,
 				01E5DC2F2A72222400D4C5CE /* BaseNavigationController.m in Sources */,
 				01E5DCB42A7254DE00D4C5CE /* ZQAccountModel.m in Sources */,
+				0124501B2A7764B7009CD788 /* HTAdViewManager.m in Sources */,
 				01E5DC2E2A72222400D4C5CE /* BaseViewController.m in Sources */,
 				0155CBA12A73A18400170661 /* HTPremiumManager.m in Sources */,
 				01E5DC2A2A72222400D4C5CE /* HTCommonConfiguration.m in Sources */,
